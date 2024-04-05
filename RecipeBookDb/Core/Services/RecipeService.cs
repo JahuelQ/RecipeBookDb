@@ -40,6 +40,7 @@ namespace RecipeBookDb.Core.Services
 
             return new RecipeDTO
             {
+                RecipeId = createdRecipe.RecipeId,
                 Title = createdRecipe.Title,
                 Ingredients = createdRecipe.Ingredients,
                 Instructions = createdRecipe.Instructions,
